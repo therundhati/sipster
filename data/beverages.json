@@ -1,0 +1,2089 @@
+[
+  {
+    "id": "chamomile_honey_tea",
+    "name": "Chamomile honey tea",
+    "description": "A gentle, floral cup that's basically a warm hug in mug form.",
+    "category": "tea",
+    "temperature": "hot",
+    "alcoholic": false,
+    "caffeine": false,
+    "prep_time_minutes": 5,
+    "tags": [
+      "calming",
+      "comforting",
+      "warming"
+    ],
+    "visuals": {
+      "glass_type": "mug",
+      "color_hex": "#F5DFA3",
+      "garnish": "lemon slice",
+      "ice": false
+    },
+    "ingredients": [
+      {
+        "id": "chamomile_tea_bag",
+        "optional": false
+      },
+      {
+        "id": "honey",
+        "optional": false
+      },
+      {
+        "id": "lemon",
+        "optional": true,
+        "note": "a slice adds brightness, totally optional"
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "golden_milk",
+    "name": "Golden milk",
+    "description": "Creamy, golden, and glowing with turmeric and warm spice.",
+    "category": "latte",
+    "temperature": "hot",
+    "alcoholic": false,
+    "caffeine": false,
+    "prep_time_minutes": 8,
+    "tags": [
+      "warming",
+      "comforting",
+      "calming"
+    ],
+    "visuals": {
+      "glass_type": "mug",
+      "color_hex": "#F6BE5A",
+      "garnish": "cinnamon dusting",
+      "ice": false
+    },
+    "ingredients": [
+      {
+        "id": "milk",
+        "optional": false
+      },
+      {
+        "id": "turmeric",
+        "optional": false
+      },
+      {
+        "id": "honey",
+        "optional": false
+      },
+      {
+        "id": "fresh_ginger",
+        "optional": true,
+        "note": "adds a spicy kick, fine to skip"
+      },
+      {
+        "id": "ground_cinnamon",
+        "optional": true,
+        "note": "for warmth, skip if you don't have it"
+      },
+      {
+        "id": "black_pepper",
+        "optional": true,
+        "note": "helps your body absorb the turmeric, but not essential"
+      }
+    ],
+    "simplified_name": "Warm turmeric milk"
+  },
+  {
+    "id": "brown_sugar_boba",
+    "name": "Brown sugar milk tea",
+    "description": "Sweet, milky, and a little playful, bonus points for chewy pearls.",
+    "category": "bubble tea",
+    "temperature": "cold",
+    "alcoholic": false,
+    "caffeine": true,
+    "prep_time_minutes": 15,
+    "tags": [
+      "indulgent",
+      "playful",
+      "nostalgic"
+    ],
+    "visuals": {
+      "glass_type": "tall_glass",
+      "color_hex": "#C8A27C",
+      "garnish": "boba pearls",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "black_tea_bag",
+        "optional": false
+      },
+      {
+        "id": "milk",
+        "optional": false
+      },
+      {
+        "id": "brown_sugar",
+        "optional": false
+      },
+      {
+        "id": "boba_pearls",
+        "optional": true,
+        "note": "no boba on hand? it's still delicious as a brown sugar iced milk tea"
+      }
+    ],
+    "simplified_name": "Brown sugar iced milk tea"
+  },
+  {
+    "id": "strawberry_lemonade",
+    "name": "Strawberry lemonade",
+    "description": "Bright pink, sweet-tart, and perfect for sipping in the sun.",
+    "category": "lemonade",
+    "temperature": "cold",
+    "alcoholic": false,
+    "caffeine": false,
+    "prep_time_minutes": 10,
+    "tags": [
+      "refreshing",
+      "fruity",
+      "energizing"
+    ],
+    "visuals": {
+      "glass_type": "mason_jar",
+      "color_hex": "#FF8FA8",
+      "garnish": "mint sprig + lemon wheel",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "fresh_strawberries",
+        "optional": false
+      },
+      {
+        "id": "lemon",
+        "optional": false
+      },
+      {
+        "id": "granulated_sugar",
+        "optional": false
+      },
+      {
+        "id": "fresh_mint",
+        "optional": true,
+        "note": "a pretty garnish, not required"
+      },
+      {
+        "id": "vodka",
+        "optional": true,
+        "note": "add a splash to make it a grown-up version"
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "matcha_latte",
+    "name": "Matcha latte",
+    "description": "Earthy, creamy, and quietly elegant, calm in a cup.",
+    "category": "tea latte",
+    "temperature": "either",
+    "alcoholic": false,
+    "caffeine": true,
+    "prep_time_minutes": 5,
+    "tags": [
+      "calming",
+      "focus",
+      "elegant"
+    ],
+    "visuals": {
+      "glass_type": "tall_glass",
+      "color_hex": "#9ECB6A",
+      "garnish": "matcha dusting",
+      "ice": false
+    },
+    "ingredients": [
+      {
+        "id": "matcha_powder",
+        "optional": false
+      },
+      {
+        "id": "milk",
+        "optional": false
+      },
+      {
+        "id": "honey",
+        "optional": true,
+        "note": "sweeten to taste, or skip"
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "chai_latte",
+    "name": "Chai latte",
+    "description": "Spiced, milky, and deeply cozy, like your favorite blanket.",
+    "category": "tea latte",
+    "temperature": "hot",
+    "alcoholic": false,
+    "caffeine": true,
+    "prep_time_minutes": 10,
+    "tags": [
+      "warming",
+      "comforting",
+      "bold"
+    ],
+    "visuals": {
+      "glass_type": "mug",
+      "color_hex": "#D69A5C",
+      "garnish": "cinnamon stick",
+      "ice": false
+    },
+    "ingredients": [
+      {
+        "id": "black_tea_bag",
+        "optional": false
+      },
+      {
+        "id": "milk",
+        "optional": false
+      },
+      {
+        "id": "ground_cinnamon",
+        "optional": false
+      },
+      {
+        "id": "honey",
+        "optional": false
+      },
+      {
+        "id": "cardamom_pods",
+        "optional": true,
+        "note": "adds an authentic touch, fine without it"
+      },
+      {
+        "id": "whole_cloves",
+        "optional": true,
+        "note": "another nice-to-have spice"
+      },
+      {
+        "id": "fresh_ginger",
+        "optional": true,
+        "note": "for extra warmth"
+      },
+      {
+        "id": "spiced_rum",
+        "optional": true,
+        "note": "a splash turns this into a dirty chai toddy"
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "mojito",
+    "name": "Mojito",
+    "description": "Crisp mint and lime over ice, refreshing and a little flirty.",
+    "category": "cocktail",
+    "temperature": "cold",
+    "alcoholic": true,
+    "caffeine": false,
+    "prep_time_minutes": 8,
+    "tags": [
+      "refreshing",
+      "energizing",
+      "playful"
+    ],
+    "visuals": {
+      "glass_type": "highball",
+      "color_hex": "#BFE6C2",
+      "garnish": "mint sprig + lime wheel",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "white_rum",
+        "optional": true,
+        "note": "omit for a virgin mojito"
+      },
+      {
+        "id": "lime",
+        "optional": false
+      },
+      {
+        "id": "fresh_mint",
+        "optional": false
+      },
+      {
+        "id": "granulated_sugar",
+        "optional": false
+      },
+      {
+        "id": "club_soda",
+        "optional": false
+      }
+    ],
+    "simplified_name": "Virgin mojito"
+  },
+  {
+    "id": "espresso_martini",
+    "name": "Espresso martini",
+    "description": "Bold, glossy, and dressed up for a night out.",
+    "category": "cocktail",
+    "temperature": "cold",
+    "alcoholic": true,
+    "caffeine": true,
+    "prep_time_minutes": 5,
+    "tags": [
+      "bold",
+      "energizing",
+      "elegant"
+    ],
+    "visuals": {
+      "glass_type": "coupe",
+      "color_hex": "#4B2E2A",
+      "garnish": "coffee beans",
+      "ice": false
+    },
+    "ingredients": [
+      {
+        "id": "vodka",
+        "optional": false
+      },
+      {
+        "id": "coffee_liqueur",
+        "optional": false
+      },
+      {
+        "id": "espresso",
+        "optional": false
+      },
+      {
+        "id": "granulated_sugar",
+        "optional": true,
+        "note": "a touch of syrup for extra sweetness, optional"
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "hot_toddy",
+    "name": "Hot toddy",
+    "description": "Warm, honeyed, and softly spiced, a gentle nightcap.",
+    "category": "cocktail",
+    "temperature": "hot",
+    "alcoholic": true,
+    "caffeine": false,
+    "prep_time_minutes": 5,
+    "tags": [
+      "warming",
+      "comforting",
+      "nostalgic"
+    ],
+    "visuals": {
+      "glass_type": "mug",
+      "color_hex": "#E0A857",
+      "garnish": "lemon wheel + cinnamon stick",
+      "ice": false
+    },
+    "ingredients": [
+      {
+        "id": "whiskey",
+        "optional": true,
+        "note": "omit for a soothing honey lemon tea"
+      },
+      {
+        "id": "honey",
+        "optional": false
+      },
+      {
+        "id": "lemon",
+        "optional": false
+      },
+      {
+        "id": "ground_cinnamon",
+        "optional": true,
+        "note": "a stick for stirring and aroma"
+      },
+      {
+        "id": "whole_cloves",
+        "optional": true,
+        "note": "a couple for extra spice"
+      }
+    ],
+    "simplified_name": "Honey lemon tea"
+  },
+  {
+    "id": "hibiscus_cooler",
+    "name": "Spiced hibiscus cooler",
+    "description": "Vibrant magenta, tart and floral, with a little spice on the finish.",
+    "category": "mocktail",
+    "temperature": "cold",
+    "alcoholic": false,
+    "caffeine": false,
+    "prep_time_minutes": 10,
+    "tags": [
+      "bold",
+      "fruity",
+      "refreshing"
+    ],
+    "visuals": {
+      "glass_type": "tall_glass",
+      "color_hex": "#D6336C",
+      "garnish": "lime wheel + mint sprig",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "dried_hibiscus_flowers",
+        "optional": false
+      },
+      {
+        "id": "lime",
+        "optional": false
+      },
+      {
+        "id": "agave_syrup",
+        "optional": false
+      },
+      {
+        "id": "club_soda",
+        "optional": false
+      },
+      {
+        "id": "fresh_ginger",
+        "optional": true,
+        "note": "adds a spicy edge, optional"
+      },
+      {
+        "id": "tequila",
+        "optional": true,
+        "note": "add a shot for a hibiscus margarita twist"
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "spiced_apple_cider",
+    "name": "Spiced apple cider",
+    "description": "Warm, spiced, and smells like a cozy autumn afternoon.",
+    "category": "cider",
+    "temperature": "hot",
+    "alcoholic": false,
+    "caffeine": false,
+    "prep_time_minutes": 15,
+    "tags": [
+      "warming",
+      "comforting",
+      "festive"
+    ],
+    "visuals": {
+      "glass_type": "mug",
+      "color_hex": "#C9743A",
+      "garnish": "cinnamon stick + orange slice",
+      "ice": false
+    },
+    "ingredients": [
+      {
+        "id": "apple_cider",
+        "optional": false
+      },
+      {
+        "id": "ground_cinnamon",
+        "optional": true,
+        "note": "for stirring and aroma"
+      },
+      {
+        "id": "star_anise",
+        "optional": true,
+        "note": "a warm spice note, fine to skip"
+      },
+      {
+        "id": "orange",
+        "optional": true,
+        "note": "a slice for garnish"
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "peppermint_hot_chocolate",
+    "name": "Peppermint hot chocolate",
+    "description": "Rich cocoa with a cool peppermint twist, pure comfort.",
+    "category": "hot chocolate",
+    "temperature": "hot",
+    "alcoholic": false,
+    "caffeine": false,
+    "prep_time_minutes": 8,
+    "tags": [
+      "comforting",
+      "indulgent",
+      "nostalgic"
+    ],
+    "visuals": {
+      "glass_type": "mug",
+      "color_hex": "#6B4226",
+      "garnish": "whipped cream + cocoa dusting",
+      "ice": false
+    },
+    "ingredients": [
+      {
+        "id": "cocoa_powder",
+        "optional": false
+      },
+      {
+        "id": "milk",
+        "optional": false
+      },
+      {
+        "id": "granulated_sugar",
+        "optional": false
+      },
+      {
+        "id": "peppermint_extract",
+        "optional": true,
+        "note": "skip for classic hot chocolate"
+      },
+      {
+        "id": "whipped_cream",
+        "optional": true,
+        "note": "a generous swirl on top, optional"
+      }
+    ],
+    "simplified_name": "Hot chocolate"
+  },
+  {
+    "id": "vanilla_oat_latte",
+    "name": "Vanilla oat latte",
+    "description": "Smooth, sweet, and gently caffeinated, a soft morning favorite.",
+    "category": "latte",
+    "temperature": "hot",
+    "alcoholic": false,
+    "caffeine": true,
+    "prep_time_minutes": 6,
+    "tags": [
+      "comforting",
+      "calming",
+      "indulgent"
+    ],
+    "visuals": {
+      "glass_type": "mug",
+      "color_hex": "#D9C2A6",
+      "garnish": "none",
+      "ice": false
+    },
+    "ingredients": [
+      {
+        "id": "espresso",
+        "optional": false
+      },
+      {
+        "id": "oat_milk",
+        "optional": false
+      },
+      {
+        "id": "vanilla_extract",
+        "optional": false
+      },
+      {
+        "id": "granulated_sugar",
+        "optional": true,
+        "note": "sweeten to taste"
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "lavender_honey_milk",
+    "name": "Lavender honey milk",
+    "description": "Dreamy, floral, and soothing, like a bedtime ritual in a cup.",
+    "category": "warm milk",
+    "temperature": "hot",
+    "alcoholic": false,
+    "caffeine": false,
+    "prep_time_minutes": 5,
+    "tags": [
+      "calming",
+      "comforting",
+      "elegant"
+    ],
+    "visuals": {
+      "glass_type": "mug",
+      "color_hex": "#E6DBF2",
+      "garnish": "dried lavender sprinkle",
+      "ice": false
+    },
+    "ingredients": [
+      {
+        "id": "milk",
+        "optional": false
+      },
+      {
+        "id": "dried_lavender",
+        "optional": false
+      },
+      {
+        "id": "honey",
+        "optional": false
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "ginger_turmeric_tea",
+    "name": "Ginger turmeric tea",
+    "description": "Zingy, golden, and clarifying, a little reset for your day.",
+    "category": "tea",
+    "temperature": "hot",
+    "alcoholic": false,
+    "caffeine": false,
+    "prep_time_minutes": 8,
+    "tags": [
+      "warming",
+      "energizing",
+      "focus"
+    ],
+    "visuals": {
+      "glass_type": "mug",
+      "color_hex": "#F2B33D",
+      "garnish": "lemon slice",
+      "ice": false
+    },
+    "ingredients": [
+      {
+        "id": "fresh_ginger",
+        "optional": false
+      },
+      {
+        "id": "turmeric",
+        "optional": false
+      },
+      {
+        "id": "lemon",
+        "optional": false
+      },
+      {
+        "id": "honey",
+        "optional": false
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "rose_cardamom_milk_tea",
+    "name": "Rose cardamom milk tea",
+    "description": "Fragrant rose and warm spice over creamy milk tea.",
+    "category": "tea latte",
+    "temperature": "hot",
+    "alcoholic": false,
+    "caffeine": true,
+    "prep_time_minutes": 8,
+    "tags": [
+      "elegant",
+      "comforting",
+      "nostalgic"
+    ],
+    "visuals": {
+      "glass_type": "mug",
+      "color_hex": "#E8B4BC",
+      "garnish": "dried rose petals",
+      "ice": false
+    },
+    "ingredients": [
+      {
+        "id": "black_tea_bag",
+        "optional": false
+      },
+      {
+        "id": "milk",
+        "optional": false
+      },
+      {
+        "id": "cardamom_pods",
+        "optional": false
+      },
+      {
+        "id": "rose_water",
+        "optional": false
+      },
+      {
+        "id": "honey",
+        "optional": true,
+        "note": "sweeten to taste"
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "peppermint_mocha",
+    "name": "Peppermint mocha",
+    "description": "Chocolatey espresso with a festive minty edge.",
+    "category": "coffee",
+    "temperature": "hot",
+    "alcoholic": false,
+    "caffeine": true,
+    "prep_time_minutes": 6,
+    "tags": [
+      "indulgent",
+      "energizing",
+      "festive"
+    ],
+    "visuals": {
+      "glass_type": "mug",
+      "color_hex": "#5C4033",
+      "garnish": "whipped cream + cocoa dusting",
+      "ice": false
+    },
+    "ingredients": [
+      {
+        "id": "espresso",
+        "optional": false
+      },
+      {
+        "id": "milk",
+        "optional": false
+      },
+      {
+        "id": "cocoa_powder",
+        "optional": false
+      },
+      {
+        "id": "peppermint_extract",
+        "optional": false
+      },
+      {
+        "id": "whipped_cream",
+        "optional": true,
+        "note": "a generous swirl on top, optional"
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "iced_matcha_lemonade",
+    "name": "Iced matcha lemonade",
+    "description": "Earthy matcha meets bright lemon, sharp and refreshing.",
+    "category": "lemonade",
+    "temperature": "cold",
+    "alcoholic": false,
+    "caffeine": true,
+    "prep_time_minutes": 6,
+    "tags": [
+      "refreshing",
+      "energizing",
+      "focus"
+    ],
+    "visuals": {
+      "glass_type": "tall_glass",
+      "color_hex": "#BFDB8C",
+      "garnish": "lemon wheel",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "matcha_powder",
+        "optional": false
+      },
+      {
+        "id": "lemon",
+        "optional": false
+      },
+      {
+        "id": "granulated_sugar",
+        "optional": false
+      },
+      {
+        "id": "water",
+        "optional": false
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "watermelon_mint_cooler",
+    "name": "Watermelon mint cooler",
+    "description": "Juicy, sweet, and impossibly refreshing on a hot day.",
+    "category": "cooler",
+    "temperature": "cold",
+    "alcoholic": false,
+    "caffeine": false,
+    "prep_time_minutes": 8,
+    "tags": [
+      "refreshing",
+      "fruity",
+      "playful"
+    ],
+    "visuals": {
+      "glass_type": "mason_jar",
+      "color_hex": "#FF6F91",
+      "garnish": "mint sprig",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "watermelon",
+        "optional": false
+      },
+      {
+        "id": "fresh_mint",
+        "optional": false
+      },
+      {
+        "id": "lime",
+        "optional": false
+      },
+      {
+        "id": "club_soda",
+        "optional": true,
+        "note": "for a fizzy version"
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "peach_iced_tea",
+    "name": "Peach iced tea",
+    "description": "Sun-steeped and peachy, a porch-sitting classic.",
+    "category": "iced tea",
+    "temperature": "cold",
+    "alcoholic": false,
+    "caffeine": true,
+    "prep_time_minutes": 10,
+    "tags": [
+      "refreshing",
+      "fruity",
+      "nostalgic"
+    ],
+    "visuals": {
+      "glass_type": "mason_jar",
+      "color_hex": "#FFC78B",
+      "garnish": "peach slice",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "black_tea_bag",
+        "optional": false
+      },
+      {
+        "id": "peach",
+        "optional": false
+      },
+      {
+        "id": "granulated_sugar",
+        "optional": false
+      },
+      {
+        "id": "water",
+        "optional": false
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "mango_lassi",
+    "name": "Mango lassi",
+    "description": "Thick, creamy, and tropical, like dessert in a glass.",
+    "category": "lassi",
+    "temperature": "cold",
+    "alcoholic": false,
+    "caffeine": false,
+    "prep_time_minutes": 7,
+    "tags": [
+      "indulgent",
+      "comforting",
+      "fruity"
+    ],
+    "visuals": {
+      "glass_type": "tall_glass",
+      "color_hex": "#FDB813",
+      "garnish": "cardamom dusting",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "mango",
+        "optional": false
+      },
+      {
+        "id": "yogurt",
+        "optional": false
+      },
+      {
+        "id": "honey",
+        "optional": false
+      },
+      {
+        "id": "cardamom_pods",
+        "optional": true,
+        "note": "a fragrant finishing touch"
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "cucumber_lime_cooler",
+    "name": "Cucumber lime cooler",
+    "description": "Crisp, clean, and spa-day refreshing.",
+    "category": "cooler",
+    "temperature": "cold",
+    "alcoholic": false,
+    "caffeine": false,
+    "prep_time_minutes": 8,
+    "tags": [
+      "refreshing",
+      "calming",
+      "elegant"
+    ],
+    "visuals": {
+      "glass_type": "tall_glass",
+      "color_hex": "#C9E8C2",
+      "garnish": "cucumber ribbon + mint",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "cucumber",
+        "optional": false
+      },
+      {
+        "id": "lime",
+        "optional": false
+      },
+      {
+        "id": "club_soda",
+        "optional": false
+      },
+      {
+        "id": "fresh_mint",
+        "optional": true,
+        "note": "a pretty garnish, not required"
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "iced_caramel_latte",
+    "name": "Iced caramel latte",
+    "description": "Sweet caramel and cold espresso over ice, caf\u00e9-worthy.",
+    "category": "iced coffee",
+    "temperature": "cold",
+    "alcoholic": false,
+    "caffeine": true,
+    "prep_time_minutes": 6,
+    "tags": [
+      "indulgent",
+      "energizing",
+      "comforting"
+    ],
+    "visuals": {
+      "glass_type": "tall_glass",
+      "color_hex": "#C68E4E",
+      "garnish": "caramel drizzle",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "espresso",
+        "optional": false
+      },
+      {
+        "id": "milk",
+        "optional": false
+      },
+      {
+        "id": "caramel_syrup",
+        "optional": false
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "thai_iced_tea",
+    "name": "Thai iced tea",
+    "description": "Bold tea swirled with sweet creamy milk, vibrant and nostalgic.",
+    "category": "iced tea",
+    "temperature": "cold",
+    "alcoholic": false,
+    "caffeine": true,
+    "prep_time_minutes": 10,
+    "tags": [
+      "indulgent",
+      "bold",
+      "nostalgic"
+    ],
+    "visuals": {
+      "glass_type": "tall_glass",
+      "color_hex": "#E8833A",
+      "garnish": "none",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "black_tea_bag",
+        "optional": false
+      },
+      {
+        "id": "sweetened_condensed_milk",
+        "optional": false
+      },
+      {
+        "id": "granulated_sugar",
+        "optional": true,
+        "note": "extra sweetness if you like it strong"
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "blueberry_lavender_lemonade",
+    "name": "Blueberry lavender lemonade",
+    "description": "Moody purple lemonade with a floral edge, very pretty.",
+    "category": "lemonade",
+    "temperature": "cold",
+    "alcoholic": false,
+    "caffeine": false,
+    "prep_time_minutes": 10,
+    "tags": [
+      "elegant",
+      "refreshing",
+      "calming"
+    ],
+    "visuals": {
+      "glass_type": "mason_jar",
+      "color_hex": "#9B89C9",
+      "garnish": "lemon wheel + lavender sprig",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "blueberries",
+        "optional": false
+      },
+      {
+        "id": "lemon",
+        "optional": false
+      },
+      {
+        "id": "dried_lavender",
+        "optional": false
+      },
+      {
+        "id": "granulated_sugar",
+        "optional": false
+      },
+      {
+        "id": "water",
+        "optional": false
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "pineapple_ginger_fizz",
+    "name": "Pineapple ginger fizz",
+    "description": "Tropical pineapple with a spicy ginger kick and fizz.",
+    "category": "fizz",
+    "temperature": "cold",
+    "alcoholic": false,
+    "caffeine": false,
+    "prep_time_minutes": 8,
+    "tags": [
+      "energizing",
+      "bold",
+      "fruity"
+    ],
+    "visuals": {
+      "glass_type": "tall_glass",
+      "color_hex": "#FFD93D",
+      "garnish": "pineapple wedge",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "pineapple",
+        "optional": false
+      },
+      {
+        "id": "fresh_ginger",
+        "optional": false
+      },
+      {
+        "id": "lime",
+        "optional": false
+      },
+      {
+        "id": "club_soda",
+        "optional": false
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "raspberry_rose_iced_tea",
+    "name": "Raspberry rose iced tea",
+    "description": "Delicate, fruity, and a little romantic.",
+    "category": "iced tea",
+    "temperature": "cold",
+    "alcoholic": false,
+    "caffeine": true,
+    "prep_time_minutes": 10,
+    "tags": [
+      "elegant",
+      "fruity",
+      "indulgent"
+    ],
+    "visuals": {
+      "glass_type": "mason_jar",
+      "color_hex": "#E0588C",
+      "garnish": "fresh raspberries + rose petal",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "black_tea_bag",
+        "optional": false
+      },
+      {
+        "id": "raspberries",
+        "optional": false
+      },
+      {
+        "id": "rose_water",
+        "optional": false
+      },
+      {
+        "id": "granulated_sugar",
+        "optional": false
+      },
+      {
+        "id": "water",
+        "optional": false
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "cold_brew_coffee",
+    "name": "Cold brew coffee",
+    "description": "Smooth, strong, and slow-steeped for a clean caffeine hit.",
+    "category": "coffee",
+    "temperature": "cold",
+    "alcoholic": false,
+    "caffeine": true,
+    "prep_time_minutes": 12,
+    "tags": [
+      "energizing",
+      "bold",
+      "focus"
+    ],
+    "visuals": {
+      "glass_type": "tall_glass",
+      "color_hex": "#3B2B22",
+      "garnish": "none",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "coarse_ground_coffee",
+        "optional": false
+      },
+      {
+        "id": "water",
+        "optional": false
+      },
+      {
+        "id": "milk",
+        "optional": true,
+        "note": "a splash, to taste"
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "passion_fruit_iced_tea",
+    "name": "Passion fruit iced tea",
+    "description": "Tangy, tropical, and a little wild.",
+    "category": "iced tea",
+    "temperature": "cold",
+    "alcoholic": false,
+    "caffeine": true,
+    "prep_time_minutes": 10,
+    "tags": [
+      "fruity",
+      "energizing",
+      "playful"
+    ],
+    "visuals": {
+      "glass_type": "mason_jar",
+      "color_hex": "#FF9F1C",
+      "garnish": "lime wheel",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "black_tea_bag",
+        "optional": false
+      },
+      {
+        "id": "passion_fruit",
+        "optional": false
+      },
+      {
+        "id": "honey",
+        "optional": false
+      },
+      {
+        "id": "water",
+        "optional": false
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "honeydew_cucumber_cooler",
+    "name": "Honeydew cucumber cooler",
+    "description": "Pale green, delicately sweet, and so refreshing.",
+    "category": "cooler",
+    "temperature": "cold",
+    "alcoholic": false,
+    "caffeine": false,
+    "prep_time_minutes": 8,
+    "tags": [
+      "refreshing",
+      "calming",
+      "fruity"
+    ],
+    "visuals": {
+      "glass_type": "tall_glass",
+      "color_hex": "#D4E8A0",
+      "garnish": "mint sprig",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "honeydew_melon",
+        "optional": false
+      },
+      {
+        "id": "cucumber",
+        "optional": false
+      },
+      {
+        "id": "lime",
+        "optional": false
+      },
+      {
+        "id": "fresh_mint",
+        "optional": true,
+        "note": "a pretty garnish, not required"
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "margarita",
+    "name": "Margarita",
+    "description": "Tangy lime and tequila with a salted rim, classic and bold.",
+    "category": "cocktail",
+    "temperature": "cold",
+    "alcoholic": true,
+    "caffeine": false,
+    "prep_time_minutes": 5,
+    "tags": [
+      "bold",
+      "fruity",
+      "festive"
+    ],
+    "visuals": {
+      "glass_type": "rocks_glass",
+      "color_hex": "#FCE38A",
+      "garnish": "lime wheel + salt rim",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "tequila",
+        "optional": true,
+        "note": "omit for a tangy limeade"
+      },
+      {
+        "id": "lime",
+        "optional": false
+      },
+      {
+        "id": "agave_syrup",
+        "optional": false
+      },
+      {
+        "id": "orange_liqueur",
+        "optional": true,
+        "note": "adds classic margarita depth, fine to skip"
+      }
+    ],
+    "simplified_name": "Limeade"
+  },
+  {
+    "id": "pina_colada",
+    "name": "Pi\u00f1a colada",
+    "description": "Coconut, pineapple, and rum, basically a tropical vacation.",
+    "category": "cocktail",
+    "temperature": "cold",
+    "alcoholic": true,
+    "caffeine": false,
+    "prep_time_minutes": 6,
+    "tags": [
+      "indulgent",
+      "festive",
+      "playful"
+    ],
+    "visuals": {
+      "glass_type": "tall_glass",
+      "color_hex": "#FFF4D6",
+      "garnish": "pineapple wedge + cherry",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "white_rum",
+        "optional": true,
+        "note": "omit for a virgin pi\u00f1a colada"
+      },
+      {
+        "id": "pineapple",
+        "optional": false
+      },
+      {
+        "id": "coconut_cream",
+        "optional": false
+      },
+      {
+        "id": "maraschino_cherry",
+        "optional": true,
+        "note": "classic garnish, optional"
+      }
+    ],
+    "simplified_name": "Virgin pi\u00f1a colada"
+  },
+  {
+    "id": "aperol_spritz",
+    "name": "Aperol spritz",
+    "description": "Bubbly, bittersweet, and effortlessly elegant.",
+    "category": "cocktail",
+    "temperature": "cold",
+    "alcoholic": true,
+    "caffeine": false,
+    "prep_time_minutes": 3,
+    "tags": [
+      "refreshing",
+      "elegant",
+      "festive"
+    ],
+    "visuals": {
+      "glass_type": "wine_glass",
+      "color_hex": "#FF8C42",
+      "garnish": "orange slice",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "aperol",
+        "optional": false
+      },
+      {
+        "id": "prosecco",
+        "optional": false
+      },
+      {
+        "id": "club_soda",
+        "optional": false
+      },
+      {
+        "id": "orange",
+        "optional": true,
+        "note": "a slice for garnish"
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "gin_and_tonic",
+    "name": "Gin and tonic",
+    "description": "Crisp, herbal, and endlessly classic.",
+    "category": "cocktail",
+    "temperature": "cold",
+    "alcoholic": true,
+    "caffeine": false,
+    "prep_time_minutes": 3,
+    "tags": [
+      "refreshing",
+      "elegant",
+      "bold"
+    ],
+    "visuals": {
+      "glass_type": "highball",
+      "color_hex": "#E8F4F0",
+      "garnish": "lime wedge",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "gin",
+        "optional": true,
+        "note": "omit for a crisp tonic and lime"
+      },
+      {
+        "id": "tonic_water",
+        "optional": false
+      },
+      {
+        "id": "lime",
+        "optional": false
+      }
+    ],
+    "simplified_name": "Tonic and lime"
+  },
+  {
+    "id": "whiskey_sour",
+    "name": "Whiskey sour",
+    "description": "Tart, smooth, and a little nostalgic, a proper classic.",
+    "category": "cocktail",
+    "temperature": "cold",
+    "alcoholic": true,
+    "caffeine": false,
+    "prep_time_minutes": 6,
+    "tags": [
+      "bold",
+      "nostalgic",
+      "elegant"
+    ],
+    "visuals": {
+      "glass_type": "rocks_glass",
+      "color_hex": "#D98E4A",
+      "garnish": "lemon twist + cherry",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "whiskey",
+        "optional": false
+      },
+      {
+        "id": "lemon",
+        "optional": false
+      },
+      {
+        "id": "granulated_sugar",
+        "optional": false
+      },
+      {
+        "id": "egg_white",
+        "optional": true,
+        "note": "for a classic foamy texture, optional"
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "moscow_mule",
+    "name": "Moscow mule",
+    "description": "Spicy ginger beer and vodka over ice, served up in copper.",
+    "category": "cocktail",
+    "temperature": "cold",
+    "alcoholic": true,
+    "caffeine": false,
+    "prep_time_minutes": 4,
+    "tags": [
+      "refreshing",
+      "energizing",
+      "bold"
+    ],
+    "visuals": {
+      "glass_type": "copper_mug",
+      "color_hex": "#F2D9A0",
+      "garnish": "lime wheel + mint",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "vodka",
+        "optional": true,
+        "note": "omit for a ginger lime fizz"
+      },
+      {
+        "id": "lime",
+        "optional": false
+      },
+      {
+        "id": "ginger_beer",
+        "optional": false
+      }
+    ],
+    "simplified_name": "Ginger lime fizz"
+  },
+  {
+    "id": "sangria",
+    "name": "Sangria",
+    "description": "Fruity red wine punch, perfect for sharing.",
+    "category": "cocktail",
+    "temperature": "cold",
+    "alcoholic": true,
+    "caffeine": false,
+    "prep_time_minutes": 15,
+    "tags": [
+      "festive",
+      "fruity",
+      "indulgent"
+    ],
+    "visuals": {
+      "glass_type": "wine_glass",
+      "color_hex": "#8B1E3F",
+      "garnish": "orange + strawberry slices",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "red_wine",
+        "optional": false
+      },
+      {
+        "id": "orange",
+        "optional": false
+      },
+      {
+        "id": "fresh_strawberries",
+        "optional": true,
+        "note": "adds extra fruitiness"
+      },
+      {
+        "id": "granulated_sugar",
+        "optional": true,
+        "note": "to taste"
+      },
+      {
+        "id": "club_soda",
+        "optional": true,
+        "note": "for a spritzy finish"
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "paloma",
+    "name": "Paloma",
+    "description": "Grapefruit and tequila, tart and effortlessly breezy.",
+    "category": "cocktail",
+    "temperature": "cold",
+    "alcoholic": true,
+    "caffeine": false,
+    "prep_time_minutes": 4,
+    "tags": [
+      "refreshing",
+      "bold",
+      "fruity"
+    ],
+    "visuals": {
+      "glass_type": "highball",
+      "color_hex": "#FF8FA3",
+      "garnish": "grapefruit wedge",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "tequila",
+        "optional": true,
+        "note": "omit for a grapefruit soda"
+      },
+      {
+        "id": "grapefruit_juice",
+        "optional": false
+      },
+      {
+        "id": "lime",
+        "optional": false
+      },
+      {
+        "id": "club_soda",
+        "optional": false
+      }
+    ],
+    "simplified_name": "Grapefruit soda"
+  },
+  {
+    "id": "negroni",
+    "name": "Negroni",
+    "description": "Bitter, bold, and unapologetically sophisticated.",
+    "category": "cocktail",
+    "temperature": "cold",
+    "alcoholic": true,
+    "caffeine": false,
+    "prep_time_minutes": 4,
+    "tags": [
+      "bold",
+      "elegant",
+      "nostalgic"
+    ],
+    "visuals": {
+      "glass_type": "rocks_glass",
+      "color_hex": "#B5283B",
+      "garnish": "orange twist",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "gin",
+        "optional": false
+      },
+      {
+        "id": "campari",
+        "optional": false
+      },
+      {
+        "id": "sweet_vermouth",
+        "optional": false
+      },
+      {
+        "id": "orange",
+        "optional": true,
+        "note": "a twist for garnish"
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "daiquiri",
+    "name": "Daiquiri",
+    "description": "Bright lime and rum, simple and endlessly refreshing.",
+    "category": "cocktail",
+    "temperature": "cold",
+    "alcoholic": true,
+    "caffeine": false,
+    "prep_time_minutes": 5,
+    "tags": [
+      "fruity",
+      "refreshing",
+      "playful"
+    ],
+    "visuals": {
+      "glass_type": "coupe",
+      "color_hex": "#DFF2D8",
+      "garnish": "lime wheel",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "white_rum",
+        "optional": true,
+        "note": "omit for a lime cooler"
+      },
+      {
+        "id": "lime",
+        "optional": false
+      },
+      {
+        "id": "granulated_sugar",
+        "optional": false
+      }
+    ],
+    "simplified_name": "Lime cooler"
+  },
+  {
+    "id": "cosmopolitan",
+    "name": "Cosmopolitan",
+    "description": "Pink, tart, and a little glamorous.",
+    "category": "cocktail",
+    "temperature": "cold",
+    "alcoholic": true,
+    "caffeine": false,
+    "prep_time_minutes": 5,
+    "tags": [
+      "elegant",
+      "festive",
+      "bold"
+    ],
+    "visuals": {
+      "glass_type": "coupe",
+      "color_hex": "#C2185B",
+      "garnish": "lime twist",
+      "ice": false
+    },
+    "ingredients": [
+      {
+        "id": "vodka",
+        "optional": true,
+        "note": "omit, along with the orange liqueur, for a cranberry lime spritzer"
+      },
+      {
+        "id": "cranberry_juice",
+        "optional": false
+      },
+      {
+        "id": "orange_liqueur",
+        "optional": true,
+        "note": "omit along with the vodka for a non-alcoholic version"
+      },
+      {
+        "id": "lime",
+        "optional": false
+      }
+    ],
+    "simplified_name": "Cranberry lime spritzer"
+  },
+  {
+    "id": "bellini",
+    "name": "Bellini",
+    "description": "Peach and prosecco, bubbly and celebratory.",
+    "category": "cocktail",
+    "temperature": "cold",
+    "alcoholic": true,
+    "caffeine": false,
+    "prep_time_minutes": 4,
+    "tags": [
+      "elegant",
+      "festive",
+      "fruity"
+    ],
+    "visuals": {
+      "glass_type": "champagne_flute",
+      "color_hex": "#FFC8A2",
+      "garnish": "peach slice",
+      "ice": false
+    },
+    "ingredients": [
+      {
+        "id": "prosecco",
+        "optional": true,
+        "note": "swap in sparkling water for a non-alcoholic peach fizz"
+      },
+      {
+        "id": "peach",
+        "optional": false
+      }
+    ],
+    "simplified_name": "Peach fizz"
+  },
+  {
+    "id": "mulled_wine",
+    "name": "Mulled wine",
+    "description": "Warm spiced wine that smells like the holidays.",
+    "category": "cocktail",
+    "temperature": "hot",
+    "alcoholic": true,
+    "caffeine": false,
+    "prep_time_minutes": 15,
+    "tags": [
+      "warming",
+      "festive",
+      "nostalgic"
+    ],
+    "visuals": {
+      "glass_type": "mug",
+      "color_hex": "#6B1E3A",
+      "garnish": "orange slice + cinnamon stick",
+      "ice": false
+    },
+    "ingredients": [
+      {
+        "id": "red_wine",
+        "optional": true,
+        "note": "omit and simmer with apple cider instead for a non-alcoholic version"
+      },
+      {
+        "id": "orange",
+        "optional": false
+      },
+      {
+        "id": "ground_cinnamon",
+        "optional": false
+      },
+      {
+        "id": "whole_cloves",
+        "optional": false
+      },
+      {
+        "id": "honey",
+        "optional": false
+      }
+    ],
+    "simplified_name": "Mulled cider"
+  },
+  {
+    "id": "irish_coffee",
+    "name": "Irish coffee",
+    "description": "Strong coffee, whiskey, and a cap of cream.",
+    "category": "cocktail",
+    "temperature": "hot",
+    "alcoholic": true,
+    "caffeine": true,
+    "prep_time_minutes": 5,
+    "tags": [
+      "warming",
+      "bold",
+      "energizing"
+    ],
+    "visuals": {
+      "glass_type": "mug",
+      "color_hex": "#4B2E2A",
+      "garnish": "whipped cream",
+      "ice": false
+    },
+    "ingredients": [
+      {
+        "id": "whiskey",
+        "optional": true,
+        "note": "omit for a sweet whipped coffee"
+      },
+      {
+        "id": "espresso",
+        "optional": false
+      },
+      {
+        "id": "brown_sugar",
+        "optional": false
+      },
+      {
+        "id": "whipped_cream",
+        "optional": false
+      }
+    ],
+    "simplified_name": "Sweet whipped coffee"
+  },
+  {
+    "id": "hot_buttered_rum",
+    "name": "Hot buttered rum",
+    "description": "Rich, buttery, and warmly spiced, a winter treat.",
+    "category": "cocktail",
+    "temperature": "hot",
+    "alcoholic": true,
+    "caffeine": false,
+    "prep_time_minutes": 6,
+    "tags": [
+      "warming",
+      "indulgent",
+      "comforting"
+    ],
+    "visuals": {
+      "glass_type": "mug",
+      "color_hex": "#C9913A",
+      "garnish": "cinnamon stick",
+      "ice": false
+    },
+    "ingredients": [
+      {
+        "id": "spiced_rum",
+        "optional": true,
+        "note": "omit for a spiced butter tea, just stir into hot water"
+      },
+      {
+        "id": "butter",
+        "optional": false
+      },
+      {
+        "id": "brown_sugar",
+        "optional": false
+      },
+      {
+        "id": "ground_cinnamon",
+        "optional": false
+      }
+    ],
+    "simplified_name": "Spiced butter tea"
+  },
+  {
+    "id": "spiked_apple_cider",
+    "name": "Spiked apple cider",
+    "description": "Warm apple cider with a spiced rum kick.",
+    "category": "cocktail",
+    "temperature": "hot",
+    "alcoholic": true,
+    "caffeine": false,
+    "prep_time_minutes": 8,
+    "tags": [
+      "warming",
+      "festive",
+      "comforting"
+    ],
+    "visuals": {
+      "glass_type": "mug",
+      "color_hex": "#C9743A",
+      "garnish": "cinnamon stick + orange slice",
+      "ice": false
+    },
+    "ingredients": [
+      {
+        "id": "spiced_rum",
+        "optional": true,
+        "note": "omit for classic spiced apple cider"
+      },
+      {
+        "id": "apple_cider",
+        "optional": false
+      },
+      {
+        "id": "ground_cinnamon",
+        "optional": true,
+        "note": "for stirring and aroma"
+      },
+      {
+        "id": "orange",
+        "optional": true,
+        "note": "a slice for garnish"
+      }
+    ],
+    "simplified_name": "Spiced apple cider"
+  },
+  {
+    "id": "coconut_pineapple_smoothie",
+    "name": "Coconut pineapple smoothie",
+    "description": "Thick, tropical, and a little indulgent.",
+    "category": "smoothie",
+    "temperature": "cold",
+    "alcoholic": false,
+    "caffeine": false,
+    "prep_time_minutes": 8,
+    "tags": [
+      "indulgent",
+      "playful",
+      "fruity"
+    ],
+    "visuals": {
+      "glass_type": "tall_glass",
+      "color_hex": "#FDF1C7",
+      "garnish": "toasted coconut flakes",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "pineapple",
+        "optional": false
+      },
+      {
+        "id": "coconut_cream",
+        "optional": false
+      },
+      {
+        "id": "banana",
+        "optional": false
+      },
+      {
+        "id": "honey",
+        "optional": true,
+        "note": "sweeten to taste"
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "iced_chai_latte",
+    "name": "Iced chai latte",
+    "description": "Spiced chai over ice, cozy meets refreshing.",
+    "category": "iced tea latte",
+    "temperature": "cold",
+    "alcoholic": false,
+    "caffeine": true,
+    "prep_time_minutes": 8,
+    "tags": [
+      "comforting",
+      "energizing",
+      "bold"
+    ],
+    "visuals": {
+      "glass_type": "mason_jar",
+      "color_hex": "#D6A77A",
+      "garnish": "cinnamon dusting",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "black_tea_bag",
+        "optional": false
+      },
+      {
+        "id": "milk",
+        "optional": false
+      },
+      {
+        "id": "ground_cinnamon",
+        "optional": false
+      },
+      {
+        "id": "honey",
+        "optional": false
+      },
+      {
+        "id": "cardamom_pods",
+        "optional": true,
+        "note": "an extra fragrant touch"
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "cinnamon_honey_warm_milk",
+    "name": "Cinnamon honey warm milk",
+    "description": "Simple, sweet, and soothing before bed.",
+    "category": "warm milk",
+    "temperature": "hot",
+    "alcoholic": false,
+    "caffeine": false,
+    "prep_time_minutes": 5,
+    "tags": [
+      "calming",
+      "comforting",
+      "warming"
+    ],
+    "visuals": {
+      "glass_type": "mug",
+      "color_hex": "#F0DCC4",
+      "garnish": "cinnamon dusting",
+      "ice": false
+    },
+    "ingredients": [
+      {
+        "id": "milk",
+        "optional": false
+      },
+      {
+        "id": "ground_cinnamon",
+        "optional": false
+      },
+      {
+        "id": "honey",
+        "optional": false
+      }
+    ],
+    "simplified_name": null
+  },
+  {
+    "id": "elderflower_lemon_spritz",
+    "name": "Elderflower lemon spritz",
+    "description": "Floral, bubbly, and delicately elegant.",
+    "category": "spritz",
+    "temperature": "cold",
+    "alcoholic": false,
+    "caffeine": false,
+    "prep_time_minutes": 4,
+    "tags": [
+      "elegant",
+      "refreshing",
+      "festive"
+    ],
+    "visuals": {
+      "glass_type": "champagne_flute",
+      "color_hex": "#F5F0DC",
+      "garnish": "lemon wheel + mint",
+      "ice": true
+    },
+    "ingredients": [
+      {
+        "id": "elderflower_syrup",
+        "optional": false
+      },
+      {
+        "id": "lemon",
+        "optional": false
+      },
+      {
+        "id": "club_soda",
+        "optional": false
+      },
+      {
+        "id": "fresh_mint",
+        "optional": true,
+        "note": "a pretty garnish, not required"
+      }
+    ],
+    "simplified_name": null
+  }
+]

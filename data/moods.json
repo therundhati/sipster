@@ -1,0 +1,74 @@
+[
+  {
+    "id": "stressed",
+    "label": "Stressed",
+    "aliases": ["anxious", "overwhelmed", "frazzled", "on edge", "tense"],
+    "tags": ["calming", "comforting", "warming"]
+  },
+  {
+    "id": "tired",
+    "label": "Tired",
+    "aliases": ["sleepy", "exhausted", "drained", "low energy", "groggy"],
+    "tags": ["energizing", "comforting", "warming"]
+  },
+  {
+    "id": "cozy",
+    "label": "Cozy",
+    "aliases": ["nostalgic", "homesick", "sentimental", "snuggly", "rainy day"],
+    "tags": ["comforting", "warming", "nostalgic"]
+  },
+  {
+    "id": "celebratory",
+    "label": "Celebratory",
+    "aliases": ["excited", "happy", "party", "special occasion", "good news"],
+    "tags": ["festive", "indulgent", "playful"]
+  },
+  {
+    "id": "romantic",
+    "label": "Romantic",
+    "aliases": ["date night", "love", "valentine", "anniversary"],
+    "tags": ["elegant", "indulgent", "festive"]
+  },
+  {
+    "id": "heartbroken",
+    "label": "Heartbroken",
+    "aliases": ["sad", "lonely", "down", "blue", "missing someone"],
+    "tags": ["comforting", "indulgent", "nostalgic"]
+  },
+  {
+    "id": "adventurous",
+    "label": "Adventurous",
+    "aliases": ["curious", "experimental", "bored", "want something new"],
+    "tags": ["bold", "fruity", "playful"]
+  },
+  {
+    "id": "need_to_focus",
+    "label": "Need to focus",
+    "aliases": ["studying", "working", "productive", "deadline", "in the zone"],
+    "tags": ["energizing", "focus", "bold"]
+  },
+  {
+    "id": "relaxed",
+    "label": "Relaxed",
+    "aliases": ["chill", "lazy day", "unwinding", "peaceful", "calm"],
+    "tags": ["calming", "refreshing", "elegant"]
+  },
+  {
+    "id": "overheated",
+    "label": "Overheated",
+    "aliases": ["hot", "sweaty", "summer", "sun", "too warm"],
+    "tags": ["refreshing", "fruity", "energizing"]
+  },
+  {
+    "id": "chilly",
+    "label": "Chilly",
+    "aliases": ["cold", "winter", "freezing", "bundled up"],
+    "tags": ["warming", "comforting", "calming"]
+  },
+  {
+    "id": "hosting",
+    "label": "Hosting friends",
+    "aliases": ["friends over", "party host", "get together", "guests coming"],
+    "tags": ["festive", "playful", "elegant"]
+  }
+]
